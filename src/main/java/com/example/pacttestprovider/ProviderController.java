@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ProviderController {
 
-    @RequestMapping
+    @RequestMapping("/getHello")
     public String hello() {
         return "Hello from pact test provider service";
     }
